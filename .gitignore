@@ -1,0 +1,28 @@
+# Entorno
+.env
+.env.local
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Corpus local (no versionar)
+data/*
+!data/.gitkeep
+!data/jsons/
+!data/exports/
+data/jsons/*
+!data/jsons/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+data/logs/
+data/debug_*.html
+data/browser_state.json
+data/chrome_profile/
+*.log
+
+# Playwright
+playwright-report/
+test-results/
